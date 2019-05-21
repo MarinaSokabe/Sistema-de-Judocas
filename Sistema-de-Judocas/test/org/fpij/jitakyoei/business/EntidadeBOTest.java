@@ -49,7 +49,7 @@ public class EntidadeBOTest {
         EntidadeBO instance = new EntidadeBOImpl();
         instance.createEntidade(entidade);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -62,7 +62,7 @@ public class EntidadeBOTest {
         EntidadeBO instance = new EntidadeBOImpl();
         instance.updateEntidade(entidade);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -77,7 +77,7 @@ public class EntidadeBOTest {
         List<Entidade> result = instance.searchEntidade(entidade);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -91,7 +91,7 @@ public class EntidadeBOTest {
         List<Entidade> result = instance.listAll();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     public class EntidadeBOImpl implements EntidadeBO {

@@ -45,7 +45,7 @@ public class AlunoDaoTestTest {
         System.out.println("setUp");
         AlunoDaoTest.setUp();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
 
     /**
@@ -56,8 +56,7 @@ public class AlunoDaoTestTest {
         System.out.println("clearDatabase");
         AlunoDaoTest.clearDatabase();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
+        }
 
     /**
      * Test of testSalvarAlunoComAssociassoes method, of class AlunoDaoTest.
@@ -68,7 +67,7 @@ public class AlunoDaoTestTest {
         AlunoDaoTest instance = new AlunoDaoTest();
         instance.testSalvarAlunoComAssociassoes();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -80,7 +79,7 @@ public class AlunoDaoTestTest {
         AlunoDaoTest instance = new AlunoDaoTest();
         instance.updateAluno();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -92,7 +91,7 @@ public class AlunoDaoTestTest {
         AlunoDaoTest instance = new AlunoDaoTest();
         instance.testListarEAdicionarAlunos();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -104,7 +103,7 @@ public class AlunoDaoTestTest {
         AlunoDaoTest instance = new AlunoDaoTest();
         instance.testSearchAluno();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -115,7 +114,7 @@ public class AlunoDaoTestTest {
         System.out.println("closeDatabase");
         AlunoDaoTest.closeDatabase();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
     
 }

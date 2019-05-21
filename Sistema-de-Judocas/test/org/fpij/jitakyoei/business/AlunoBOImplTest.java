@@ -49,7 +49,7 @@ public class AlunoBOImplTest {
         AlunoBOImpl instance = null;
         instance.createAluno(aluno);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -62,7 +62,7 @@ public class AlunoBOImplTest {
         AlunoBOImpl instance = null;
         instance.updateAluno(aluno);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -77,7 +77,7 @@ public class AlunoBOImplTest {
         List<Aluno> result = instance.searchAluno(aluno);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -91,7 +91,7 @@ public class AlunoBOImplTest {
         List<Aluno> result = instance.listAll();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
     
 }

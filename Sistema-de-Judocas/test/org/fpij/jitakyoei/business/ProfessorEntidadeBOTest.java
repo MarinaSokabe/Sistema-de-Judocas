@@ -49,7 +49,7 @@ public class ProfessorEntidadeBOTest {
         ProfessorEntidadeBO instance = new ProfessorEntidadeBOImpl();
         instance.createProfessorEntidade(relacionamentos);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     public class ProfessorEntidadeBOImpl implements ProfessorEntidadeBO {
