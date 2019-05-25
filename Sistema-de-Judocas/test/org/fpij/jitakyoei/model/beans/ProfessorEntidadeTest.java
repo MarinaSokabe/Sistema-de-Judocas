@@ -17,6 +17,7 @@ import static org.junit.Assert.*;
  * @author 31704786
  */
 public class ProfessorEntidadeTest {
+    
    private static Filiado filiadoProf;
    private static Professor professor;
    private static Entidade entidade;
@@ -27,10 +28,20 @@ public class ProfessorEntidadeTest {
     @BeforeClass
     public static void setUpClass() {
         
-                filiadoProf = new Filiado();
-		filiadoProf.setNome("Mauro");
-		filiadoProf.setCpf("6789054326");
-		filiadoProf.setId(3456L);	
+        professor = new Professor();
+        professor.setFiliado(filiadoProf);
+        
+        filiadoProf = new Filiado();
+        filiadoProf.setNome("Lúcifer");
+	filiadoProf.setCpf("6789054326");
+	filiadoProf.setId(6969L);	
+        
+        entidade = new Entidade();
+        entidade.setNome("Desmonio");
+        entidade.setCnpj("12345678907");
+        entidade.setTelefone1("(086)04927485093");
+        entidade.getTelefone2();
+        entidade.getEndereco();
         
     }
     
@@ -48,7 +59,7 @@ public class ProfessorEntidadeTest {
 
     /**
      * Test of equals method, of class ProfessorEntidade.
-     */
+
     @Test
     public void testEquals() {
         System.out.println("equals");
@@ -63,7 +74,7 @@ public class ProfessorEntidadeTest {
 
     /**
      * Test of hashCode method, of class ProfessorEntidade.
-     */
+ 
     @Test
     public void testHashCode() {
         System.out.println("hashCode");
@@ -77,7 +88,7 @@ public class ProfessorEntidadeTest {
 
     /**
      * Test of getProfessor method, of class ProfessorEntidade.
-     */
+    
     @Test
     public void testGetProfessor() {
         System.out.println("getProfessor");
@@ -91,7 +102,7 @@ public class ProfessorEntidadeTest {
 
     /**
      * Test of setProfessor method, of class ProfessorEntidade.
-     */
+     
     @Test
     public void testSetProfessor() {
         System.out.println("setProfessor");
@@ -104,7 +115,7 @@ public class ProfessorEntidadeTest {
 
     /**
      * Test of getEntidade method, of class ProfessorEntidade.
-     */
+     
     @Test
     public void testGetEntidade() {
         System.out.println("getEntidade");
@@ -118,7 +129,7 @@ public class ProfessorEntidadeTest {
 
     /**
      * Test of setEntidade method, of class ProfessorEntidade.
-     */
+     
     @Test
     public void testSetEntidade() {
         System.out.println("setEntidade");
@@ -127,6 +138,10 @@ public class ProfessorEntidadeTest {
         instance.setEntidade(entidade);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
+        
+  
     }
+  */
     
+     
 }

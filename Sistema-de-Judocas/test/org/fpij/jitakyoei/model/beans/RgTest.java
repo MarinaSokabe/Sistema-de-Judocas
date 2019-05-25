@@ -42,11 +42,21 @@ public class RgTest {
     public void criaRgTestNumero(){
         Rg r = new Rg ("123456789", "SP");
         assertEquals("123456789", r.getNumero());
+        assertNotNull(r.getNumero());
+        assertTrue(r.getNumero().length() == 9 );
+        assertNotSame("123456789", r.getOrgaoExpedidor().matches("[0-9]+"));
     }  
     
     @Test
     public void criaRgTestOrgaoExpedidor(){
         Rg r = new Rg ("123456789", "SP");
         assertEquals("SP", r.getOrgaoExpedidor());
+        assertNotNull(r.getOrgaoExpedidor());
+        assertNotSame("SP",r.getOrgaoExpedidor().matches("[A-Z]*"));
+        assertNotSame("sp",r.getOrgaoExpedidor().matches("[a-z]*"));
+        
+        
+        
     }    
+   
 }
