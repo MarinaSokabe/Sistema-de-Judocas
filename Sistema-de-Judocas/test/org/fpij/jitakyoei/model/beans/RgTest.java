@@ -14,7 +14,7 @@ import static org.junit.Assert.*;
  
 /**
  *
- * @author 31704786
+ * @author 31704786 
  */
 public class RgTest {
     

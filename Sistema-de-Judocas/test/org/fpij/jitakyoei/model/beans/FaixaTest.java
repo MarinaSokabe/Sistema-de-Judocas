@@ -19,12 +19,16 @@ import static org.junit.Assert.*;
  * @author 31704786
  */
 public class FaixaTest {
+    private static CorFaixa cors;
+    private static Date dataEntrega;
     
     public FaixaTest() {
+       
     }
     
     @BeforeClass
     public static void setUpClass() {
+         
     }
     
     @AfterClass
@@ -38,6 +42,7 @@ public class FaixaTest {
     @After
     public void tearDown() {
     }
+    
 
    
     
